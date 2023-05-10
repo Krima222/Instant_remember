@@ -1,0 +1,19 @@
+.menubutton {
+    &__button {
+        border: none;
+        background: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__text {
+        margin-left: 16px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        
+        color: #494949;
+    }
+}

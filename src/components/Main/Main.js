@@ -3,12 +3,11 @@ import { Outlet } from 'react-router-dom';
 
 import classes from './Main.module.scss'
 
-import { Header } from '../Header/Header';
-import { Nav } from '../Profile/Nav/Nav';
-import { Menu } from '../Profile/Nav/Menu/Menu';
+import { Header } from './Header/Header';
+import { Nav } from './Nav/Nav';
+import { Menu } from './Nav/Menu/Menu'
 
 export function Main() {
-
     return (
         <div className={classes.main}>
             <div className={classes.main__header}>
