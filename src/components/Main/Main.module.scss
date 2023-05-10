@@ -1,0 +1,33 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: #EDEEF0;
+
+    &__header {
+        width: 100%;
+        background: red;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 918px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+  
+    &__nav {
+        width: 176px;
+        background: rgb(8, 253, 0);
+        order: 1;
+    }
+  
+    &__content {
+        flex-grow: 1;
+        background: rgb(255, 0, 221);
+        margin-left: 20px;
+        order: 2;
+    }
+}
